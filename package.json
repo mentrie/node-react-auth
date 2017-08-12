@@ -1,0 +1,27 @@
+{
+  "name": "node-react-auth",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-promise-router": "^2.0.0",
+    "joi": "^10.6.0",
+    "jsonwebtoken": "^7.4.2",
+    "mongoose": "^4.11.5",
+    "morgan": "^1.8.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-dev": "node server/index.js && yarn start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:7777"
+}
